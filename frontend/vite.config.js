@@ -12,5 +12,8 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  devServer: {
+        proxy: 'http://amarnathk.pythonanywhere.com/api/reactions?format=json',
+    }
 })
