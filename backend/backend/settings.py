@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=q)#c%$m@7sb8a7k$(vng8x7=i$898!v#qtfq)h)2lbgph6yb1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['chem-db.onrender.com']
 
