@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-=q)#c%$m@7sb8a7k$(vng8x7=i$898!v#qtfq)h)2lbgph6yb1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['chem-db.onrender.com']
 
 
 # Application definition
